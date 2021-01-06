@@ -30,10 +30,6 @@ class Car {
       throw new Error('fuelConsumption must be a number')
     }
     this.fuelConsumption = fuelConsumption;
-
-    if (arguments.length < 6) {
-      throw new Error('one or several parameters are missed')
-    }
   }
 
 
